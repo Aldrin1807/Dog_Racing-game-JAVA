@@ -87,7 +87,7 @@ public class Loja_Gara{
 		Dog_Thread dog4Thread = new Dog_Thread(Dog_4);
 		Dog_Thread dog5Thread = new Dog_Thread(Dog_5);
         
-        dog1Thread.setPriority(10);
+        dog3Thread.setPriority(10);
 		
         dog1Thread.start();
         dog2Thread.start();
@@ -110,27 +110,27 @@ public class Loja_Gara{
 
 
 	        Dog_1 = new JLabel("");
-	        Dog_1.setIcon(new ImageIcon("C:\\Users\\HP\\Downloads\\pngegg (1).png"));
+	        Dog_1.setIcon(new ImageIcon("pngegg.png"));
 	        Dog_1.setBounds(44,89, 92, 42);
 	        frame.getContentPane().add(Dog_1);
 	        
 	        Dog_2 = new JLabel("");
-	        Dog_2.setIcon(new ImageIcon("C:\\Users\\HP\\Downloads\\pngegg (1).png"));
+	        Dog_2.setIcon(new ImageIcon("pngegg.png"));
 	        Dog_2.setBounds(44,142, 92, 42);
 	        frame.getContentPane().add(Dog_2);
 	        
 	        Dog_3 = new JLabel("");
-	        Dog_3.setIcon(new ImageIcon("C:\\Users\\HP\\Downloads\\pngegg (1).png"));
+	        Dog_3.setIcon(new ImageIcon("pngegg.png"));
 	        Dog_3.setBounds(44,195, 92, 42);
 	        frame.getContentPane().add(Dog_3);
 	        
 	        Dog_4 = new JLabel("");
-	        Dog_4.setIcon(new ImageIcon("C:\\Users\\HP\\Downloads\\pngegg (1).png"));
+	        Dog_4.setIcon(new ImageIcon("pngegg.png"));
 	        Dog_4.setBounds(44,248, 92, 42);
 	        frame.getContentPane().add(Dog_4);
 	        
 	        Dog_5 = new JLabel("");
-	        Dog_5.setIcon(new ImageIcon("C:\\Users\\HP\\Downloads\\pngegg (1).png"));
+	        Dog_5.setIcon(new ImageIcon("pngegg.png"));
 	        Dog_5.setBounds(44,301, 92, 42);
 	        frame.getContentPane().add(Dog_5);
 	        
